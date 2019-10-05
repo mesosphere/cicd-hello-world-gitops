@@ -14,7 +14,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: mesosphere/cicd-hello-world@sha256:92162ebebebe7e9d592504cab001e1cd7357a0c57ee80796809c4f97bdf9ed1d
+      - image: gpaul/hello-world@sha256:f9ec2dc7979aa21c8c1ca0d36636477da508078de93a2e54ade804cbeef27a91
         name: hello-world
         ports:
         - containerPort: 8080
